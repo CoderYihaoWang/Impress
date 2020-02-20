@@ -1,5 +1,50 @@
 html, body {
+    background-origin: border-box;
     margin: 0;
     padding: 0;
     overflow: hidden;
+}
+
+body {
+    height: 100vh;
+}
+
+nav {
+    background-color: aqua;
+    height: 100vh;
+    width: 20vw;
+    position: fixed;
+}
+
+header {
+    background-color: brown;
+    height: 20px;
+    width: 80vw;
+    position: fixed;
+
+    left: 20vw; 
+}
+
+footer {
+    background-color: blue;
+    height: 20px;
+    width: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.pageContainer {
+    background-color: bisque;
+    position: absolute;
+    width: 80vw;
+    left: 20vw;
+    top: 20px;
+    overflow: auto;
+}
+
+.page {
+    width: 100%;
+    height: 100vh;
+    border: 2px solid black;
 }
