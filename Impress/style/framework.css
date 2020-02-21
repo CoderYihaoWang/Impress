@@ -2,7 +2,6 @@ html, body {
     background-origin: border-box;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 body {
@@ -39,7 +38,6 @@ footer {
     position: absolute;
     width: 80vw;
     left: 20vw;
-    top: 20px;
     overflow: auto;
 }
 
