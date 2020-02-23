@@ -8,29 +8,19 @@ body {
     height: 100vh;
 }
 
-nav {
+.nav {
     background-color: aqua;
     height: 100vh;
     width: 20vw;
     position: fixed;
 }
 
-header {
-    background-color: brown;
-    height: 20px;
-    width: 80vw;
-    position: fixed;
-
-    left: 20vw; 
-}
-
-footer {
+.panel {
     background-color: blue;
     height: 20px;
-    width: 100px;
+    width: 100%;
     position: fixed;
     bottom: 0;
-    right: 0;
 }
 
 .pageContainer {
