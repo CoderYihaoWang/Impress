@@ -2,14 +2,12 @@ html, body {
     background-origin: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
     height: 100vh;
 }
 
 .nav {
     background-color: aqua;
+    margin: 0;
     height: 100vh;
     width: 20vw;
     position: fixed;
@@ -31,7 +29,8 @@ body {
     overflow: auto;
 }
 
-.page {
+.cover, .page {
+    margin: 0;
     width: 100%;
     height: 100vh;
     border: 2px solid black;
